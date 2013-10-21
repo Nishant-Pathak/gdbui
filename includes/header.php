@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <!--link rel="shortcut icon" href="../../assets/ico/favicon.png"-->
 
-    <title>Sticky Footer Navbar Template for Bootstrap</title>
+    <title>GDB UI</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">

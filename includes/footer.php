@@ -12,5 +12,6 @@
   <script type="text/javascript" src="../js/angular.min.js"></script>
   <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="../js/ui-bootstrap-tpls-0.5.0.min.js"></script>
+  <script type="text/javascript" src="../js/gdbui.js"></script>
 </body>
 </html>

@@ -6,12 +6,23 @@ include_once("includes/navbar.php");
       <!-- Begin page content -->
       <div class="container">
         <div class="page-header">
-          <h1>Sticky footer with fixed navbar</h1>
+          <h1>Access gdb from UI</h1>
         </div>
-        <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added within <code>#wrap</code> with <code>padding-top: 60px;</code> on the <code>.container</code>.</p>
-        <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
+        <div ng-controller="myconsole">
+           <div class="panel panel-default" style="height:200px">
+              <div class="panel-heading">
+                 Panel heading
+              </div>
+              <div class="panel-body">
+                 <p ng-model="output"> {{output}} </p>
+              </div>
+           </div>
+           <form>
+              <input type="text" ng-model="command" />
+              <button ng-click="execute(command)">run</button>
+           </form>
+        </div>
       </div>
-    </div>
 
 <?php
 
